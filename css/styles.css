@@ -414,6 +414,15 @@ padding: 0 15px;
    color: #F4F4FD;
    width: 264px;
  }
+.footer-social {
+  margin: 0;
+}
+
+.footer-icon {
+  fill: #f4f4fd;
+  width: 40px;
+  height: 40px;
+}
 
 ul {
   list-style: none;
@@ -422,3 +431,4 @@ ul {
 .image {
   display: block;
 }
+
