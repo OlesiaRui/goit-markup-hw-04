@@ -150,7 +150,7 @@ a {
     max-width: 1440px;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/background/hero-image.jpg);
+      url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -363,9 +363,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 
 .social-team-icons {
   fill: #f4f4fd;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
+ 
 }
 
 .section-portfolio {
@@ -504,6 +502,11 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
    margin: 0;
  }
 
+ .footer-icon-list-item {
+  width: 40px;
+   height: 40px;
+ }
+
  .icon-link {
    display: flex;
    width: 100%;
@@ -533,10 +536,19 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
  .footer-social {
    margin: 0;
  }
-
+.link-logo{
+  display: inline-block;
+  margin-right: 76px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-bottom: 16px;
+}
  .footer-icon {
-   fill: #f4f4fd;
-   width: 40px;
-   height: 40px;
+   fill: #f4f4fd;  
  }
 
