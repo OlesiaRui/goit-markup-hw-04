@@ -374,7 +374,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
   padding-top: 120px;
 }
 
-.portfolio-title {
+.section-title-portfolio {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.11;
@@ -394,14 +394,14 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
   margin: 0;
 }
 
-.project_card {
+.portfolio-list-item {
   position: relative;
-    width: calc((100% - 48px) / 3);
-    border-top: none;
-    text-align: left;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: calc((100% - 48px) / 3);
+  border-top: none;
+  text-align: left;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-container {
@@ -410,7 +410,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.advantages {
+.title-portfolio {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -423,7 +423,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
   margin-left: 0;
 }
 
-.p_advantages {
+.title-small-portfolio {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -460,10 +460,8 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 
 .portfolio-list-item:hover,
 .portfolio-list-item:hover {
-  box-shadow: 
-    0px 1px 6px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16),
-      0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
  .footer {
